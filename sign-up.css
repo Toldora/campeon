@@ -219,6 +219,21 @@ button:disabled {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  height: 0;
+  width: 0;
+  border: none;
+}
+
+.sign-up__check-input:checked {
+  background: none;
+}
+
+.sign-up__check-input:focus {
+  box-shadow: none;
+}
+
+.sign-up__check-input:focus-visible {
+  outline: none;
 }
 
 .sign-up__check-box {
